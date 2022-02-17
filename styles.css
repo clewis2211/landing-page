@@ -3,6 +3,8 @@ body{
     padding: 0;
     height: 100vh;
 }
+
+
 /* HEADER LOGO SECTION  */
 .page-section1{
     display: flex;
@@ -71,7 +73,7 @@ body{
 }
 
 .sign-up h1{
-    font-size: 48px;
+    font-size: 38px;
     font-weight: bolder;
     color: #F9FAF8;
 }
@@ -89,7 +91,7 @@ body{
     margin-left: auto;
 }
 
-.image-placeholder img{
+img{
     display: flex;
     height: 20em;
     border-radius: 10px;
@@ -99,7 +101,6 @@ body{
 
 
 /* Some Random Information with Cards */
-
 .page-section2{
     display: flex;
     margin: 0;
