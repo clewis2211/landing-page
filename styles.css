@@ -103,7 +103,7 @@ body{
 .page-section2{
     display: flex;
     margin: 0;
-    padding-bottom: 50px;
+    padding: 50px;
     flex-flow: column;
     justify-content: center;
     align-items: center;
@@ -133,3 +133,80 @@ body{
 }
 
 /* INSPIRING QUOTE */
+
+.page-section3{
+    background-color: #e5e7eb;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-section3 .quote-container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-flow: column;
+    width: 500px;
+    padding: 50px;
+}
+
+.quote-container h2{
+    font-weight: lighter;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quote-container p{
+    font-weight: bolder;
+}
+
+/* CALL TO ACTION SIGN-UP */
+.page-section4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 50px; */
+    padding: 50px;
+}
+
+.sign-up-container{
+    background-color: #3882f6;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 40px 60px 40px 60px;
+    margin: 0;
+    gap: 400px;
+}
+
+.sign-up-container .action-call{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: monospace ;
+}
+
+.action-call h3{
+    font-size: 39px;
+    margin: 0;
+    padding: 0;
+}
+
+.sign-up-container .sign-up{
+    background-color: #3882f6;
+    border: white solid 1px;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+/* FOOTER */
+.footer{
+    text-align: center;
+    background-color: #1f2937;
+    color: white;
+    padding: 20px;
+}
